@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ClientSecurityKit",
+        "repositoryURL": "https://github.com/RiskIdentDMS/riskident-di-mobile-ios",
+        "state": {
+          "branch": null,
+          "revision": "9357a45c435becb2b7bc4a643efde21ddb8a2305",
+          "version": "1.6.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
