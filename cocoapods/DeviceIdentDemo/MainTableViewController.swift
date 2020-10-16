@@ -32,6 +32,7 @@ class MainTableViewController: UITableViewController {
             resultPage.token = token
             navigationController?.pushViewController(resultPage, animated: true)
             _ = ClientSecurityModule(snippetId: snippetId, token: token, location: location, view: self.view)
+            print(resultPage.token)
             
         }
         
