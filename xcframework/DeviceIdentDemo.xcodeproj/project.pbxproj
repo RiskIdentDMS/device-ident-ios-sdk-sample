@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CDE2F78273E63C700229F25 /* ClientSecurityKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2CDE2F77273E63C700229F25 /* ClientSecurityKit */; };
+		2CA27D9A273E613400B4D495 /* ClientSecurityKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA27D99273E613400B4D495 /* ClientSecurityKit.xcframework */; };
+		2CA27D9B273E613400B4D495 /* ClientSecurityKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA27D99273E613400B4D495 /* ClientSecurityKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		49374F94224B76D5003E1AC1 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49374F93224B76D5003E1AC1 /* MainNavigationController.swift */; };
 		49374F9D224B9442003E1AC1 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49374F9C224B9442003E1AC1 /* MainTableViewController.swift */; };
 		49374F9F224B984D003E1AC1 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49374F9E224B984D003E1AC1 /* ResultsTableViewController.swift */; };
@@ -36,7 +37,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2CA27D9C273E613400B4D495 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2CA27D9B273E613400B4D495 /* ClientSecurityKit.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2CA27D99273E613400B4D495 /* ClientSecurityKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ClientSecurityKit.xcframework; path = "../../../../Users/asifmayilli/Downloads/ClientSecurityKit.xcframework-1.7.0/ClientSecurityKit.xcframework"; sourceTree = "<group>"; };
 		49374F93224B76D5003E1AC1 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		49374F9C224B9442003E1AC1 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		49374F9E224B984D003E1AC1 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CDE2F78273E63C700229F25 /* ClientSecurityKit in Frameworks */,
+				2CA27D9A273E613400B4D495 /* ClientSecurityKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +153,7 @@
 		A18F6B24247EB13A007FB9D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2CA27D99273E613400B4D495 /* ClientSecurityKit.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,6 +168,7 @@
 				497281E5224B6D8F0043CDFF /* Sources */,
 				497281E6224B6D8F0043CDFF /* Frameworks */,
 				497281E7224B6D8F0043CDFF /* Resources */,
+				2CA27D9C273E613400B4D495 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,7 +176,6 @@
 			);
 			name = DeviceIdentDemo;
 			packageProductDependencies = (
-				2CDE2F77273E63C700229F25 /* ClientSecurityKit */,
 			);
 			productName = DeviceIdentDemo;
 			productReference = 497281E9224B6D8F0043CDFF /* DeviceIdentDemo.app */;
@@ -233,7 +250,6 @@
 			);
 			mainGroup = 497281E0224B6D8F0043CDFF;
 			packageReferences = (
-				2CDE2F76273E63C700229F25 /* XCRemoteSwiftPackageReference "riskident-di-mobile-ios" */,
 			);
 			productRefGroup = 497281EA224B6D8F0043CDFF /* Products */;
 			projectDirPath = "";
@@ -614,25 +630,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		2CDE2F76273E63C700229F25 /* XCRemoteSwiftPackageReference "riskident-di-mobile-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/RiskIdentDMS/riskident-di-mobile-ios";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.7.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		2CDE2F77273E63C700229F25 /* ClientSecurityKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2CDE2F76273E63C700229F25 /* XCRemoteSwiftPackageReference "riskident-di-mobile-ios" */;
-			productName = ClientSecurityKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 497281E1224B6D8F0043CDFF /* Project object */;
 }

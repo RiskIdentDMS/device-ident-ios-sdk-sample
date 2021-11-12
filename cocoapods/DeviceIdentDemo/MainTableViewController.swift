@@ -31,8 +31,16 @@ class MainTableViewController: UITableViewController {
         if let resultPage = storyboard?.instantiateViewController(withIdentifier: "ResultsTableViewController") as? ResultsTableViewController{
             resultPage.token = token
             navigationController?.pushViewController(resultPage, animated: true)
-            _ = ClientSecurityModule(snippetId: snippetId, token: token, location: location, view: self.view)
-            print(resultPage.token)
+            let  clientSecurity = ClientSecurityModule(snippetId: snippetId)
+                    
+            clientSecurity.sendData(token: token,location: location, customArgs: [ "cId" : "A" , "amount" : "1000" ])
+                {error,token,success in
+                        print("=================RESULT==================")
+                        print(error)
+                        print(token)
+                        print(success)
+                        
+                    }
             
         }
         
