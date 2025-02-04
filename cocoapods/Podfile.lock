@@ -1,16 +1,16 @@
 PODS:
-  - ClientSecurityKit (1.6.2)
+  - ClientSecurityKit (1.7.2)
 
 DEPENDENCIES:
-  - ClientSecurityKit (= 1.6.2)
+  - ClientSecurityKit (= 1.7.2)
 
 SPEC REPOS:
-  https://riskident.jfrog.io/riskident/api/pods/ios-develop/:
+  https://riskident.jfrog.io/riskident/api/pods/ios-develop:
     - ClientSecurityKit
 
 SPEC CHECKSUMS:
-  ClientSecurityKit: e1fb1d5ab6882829a16009a803c137e96380ffac
+  ClientSecurityKit: fa9e2b2d6f9bb8d7a6a34fd60c0c650d73949890
 
-PODFILE CHECKSUM: 0d0150f4d7f34d146528701daeb29f410525e01c
+PODFILE CHECKSUM: 4571b27c0646ab73dd4f018a0133ed8717eef668
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.16.2

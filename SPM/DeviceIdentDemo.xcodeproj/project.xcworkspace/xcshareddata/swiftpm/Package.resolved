@@ -1,16 +1,15 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "ClientSecurityKit",
-        "repositoryURL": "https://github.com/RiskIdentDMS/riskident-di-mobile-ios",
-        "state": {
-          "branch": null,
-          "revision": "f59ad4dd591071d15f5bbede7b9ef4adff01bddd",
-          "version": "1.7.0"
-        }
+  "originHash" : "222931fe67e480891e77d4b39bb50f7adad89b3677eeb23a3a48672ac0baf107",
+  "pins" : [
+    {
+      "identity" : "risksdkspm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RiskIdentDMS/RiskSDKSPM",
+      "state" : {
+        "revision" : "7ff83a158599f4784669b9d5a30fcc1a9b0ee34c",
+        "version" : "1.7.2"
       }
-    ]
-  },
-  "version": 1
+    }
+  ],
+  "version" : 3
 }

@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CDE2F78273E63C700229F25 /* ClientSecurityKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2CDE2F77273E63C700229F25 /* ClientSecurityKit */; };
+		2CF159BD2D4125F400B2D207 /* RiskSDKSPM in Frameworks */ = {isa = PBXBuildFile; productRef = 2CF159BC2D4125F400B2D207 /* RiskSDKSPM */; };
 		49374F94224B76D5003E1AC1 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49374F93224B76D5003E1AC1 /* MainNavigationController.swift */; };
 		49374F9D224B9442003E1AC1 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49374F9C224B9442003E1AC1 /* MainTableViewController.swift */; };
 		49374F9F224B984D003E1AC1 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49374F9E224B984D003E1AC1 /* ResultsTableViewController.swift */; };
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CDE2F78273E63C700229F25 /* ClientSecurityKit in Frameworks */,
+				2CF159BD2D4125F400B2D207 /* RiskSDKSPM in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +158,7 @@
 			);
 			name = DeviceIdentDemo;
 			packageProductDependencies = (
-				2CDE2F77273E63C700229F25 /* ClientSecurityKit */,
+				2CF159BC2D4125F400B2D207 /* RiskSDKSPM */,
 			);
 			productName = DeviceIdentDemo;
 			productReference = 497281E9224B6D8F0043CDFF /* DeviceIdentDemo.app */;
@@ -206,8 +206,9 @@
 		497281E1224B6D8F0043CDFF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1620;
 				ORGANIZATIONNAME = "Alexander van der Werff";
 				TargetAttributes = {
 					497281E8224B6D8F0043CDFF = {
@@ -233,7 +234,7 @@
 			);
 			mainGroup = 497281E0224B6D8F0043CDFF;
 			packageReferences = (
-				2CDE2F76273E63C700229F25 /* XCRemoteSwiftPackageReference "riskident-di-mobile-ios" */,
+				2CF159BB2D4125F400B2D207 /* XCRemoteSwiftPackageReference "RiskSDKSPM" */,
 			);
 			productRefGroup = 497281EA224B6D8F0043CDFF /* Products */;
 			projectDirPath = "";
@@ -362,6 +363,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -373,6 +375,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -423,6 +426,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -434,6 +438,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -455,7 +460,6 @@
 		49728212224B6D8F0043CDFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YZ7V9GNQ9A;
@@ -475,7 +479,6 @@
 		49728213224B6D8F0043CDFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YZ7V9GNQ9A;
@@ -495,7 +498,6 @@
 		49728215224B6D8F0043CDFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 289GTU4PQM;
@@ -516,7 +518,6 @@
 		49728216224B6D8F0043CDFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 289GTU4PQM;
@@ -537,7 +538,6 @@
 		49728218224B6D8F0043CDFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 289GTU4PQM;
 				INFOPLIST_FILE = DeviceIdentDemoUITests/Info.plist;
@@ -557,7 +557,6 @@
 		49728219224B6D8F0043CDFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 289GTU4PQM;
 				INFOPLIST_FILE = DeviceIdentDemoUITests/Info.plist;
@@ -616,21 +615,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2CDE2F76273E63C700229F25 /* XCRemoteSwiftPackageReference "riskident-di-mobile-ios" */ = {
+		2CF159BB2D4125F400B2D207 /* XCRemoteSwiftPackageReference "RiskSDKSPM" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/RiskIdentDMS/riskident-di-mobile-ios";
+			repositoryURL = "https://github.com/RiskIdentDMS/RiskSDKSPM";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.7.0;
+				kind = exactVersion;
+				version = 1.7.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2CDE2F77273E63C700229F25 /* ClientSecurityKit */ = {
+		2CF159BC2D4125F400B2D207 /* RiskSDKSPM */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2CDE2F76273E63C700229F25 /* XCRemoteSwiftPackageReference "riskident-di-mobile-ios" */;
-			productName = ClientSecurityKit;
+			package = 2CF159BB2D4125F400B2D207 /* XCRemoteSwiftPackageReference "RiskSDKSPM" */;
+			productName = RiskSDKSPM;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

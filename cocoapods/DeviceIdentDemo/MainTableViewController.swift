@@ -31,7 +31,7 @@ class MainTableViewController: UITableViewController {
         if let resultPage = storyboard?.instantiateViewController(withIdentifier: "ResultsTableViewController") as? ResultsTableViewController{
             resultPage.token = token
             navigationController?.pushViewController(resultPage, animated: true)
-            let  clientSecurity = ClientSecurityModule(snippetId: snippetId)
+            let  clientSecurity = ClientSecurityModule(snippetId: snippetId, domain: "www-test.jsctool.com")
                     
             clientSecurity.sendData(token: token,location: location, customArgs: [ "cId" : "A" , "amount" : "1000" ])
                 {error,token,success in
