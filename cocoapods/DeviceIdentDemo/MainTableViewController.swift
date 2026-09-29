@@ -33,14 +33,17 @@ class MainTableViewController: UITableViewController {
             navigationController?.pushViewController(resultPage, animated: true)
             let  clientSecurity = ClientSecurityModule(snippetId: snippetId, domain: "www-test.jsctool.com")
                     
-            clientSecurity.sendData(token: token,location: location, customArgs: [ "cId" : "A" , "amount" : "1000" ])
-                {error,token,success in
-                        print("=================RESULT==================")
-                        print(error)
-                        print(token)
-                        print(success)
-                        
-                    }
+            clientSecurity.execute(token: token, location: location, customArgs: [ "cId" : "A" , "amount" : "1000" ]) { result in
+                DispatchQueue.main.async {
+                    print("=================RESULT==================")
+                    print(result.outcome)
+                    print(result.token)
+                    print(result.errorType)
+                    print(result.message ?? "")
+                    print("mobileDataSent \(result.mobileDataSent)")
+                    print("clientDataSent \(result.clientDataSent)")
+                }
+            }
             
         }
         

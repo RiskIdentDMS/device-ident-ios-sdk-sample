@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CA27D9A273E613400B4D495 /* ClientSecurityKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA27D99273E613400B4D495 /* ClientSecurityKit.xcframework */; };
-		2CA27D9B273E613400B4D495 /* ClientSecurityKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA27D99273E613400B4D495 /* ClientSecurityKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2CF9C178306BEC200048EE81 /* ClientSecurityKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF9C177306BEC200048EE81 /* ClientSecurityKit.xcframework */; };
+		2CF9C179306BEC200048EE81 /* ClientSecurityKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF9C177306BEC200048EE81 /* ClientSecurityKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		49374F94224B76D5003E1AC1 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49374F93224B76D5003E1AC1 /* MainNavigationController.swift */; };
 		49374F9D224B9442003E1AC1 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49374F9C224B9442003E1AC1 /* MainTableViewController.swift */; };
 		49374F9F224B984D003E1AC1 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49374F9E224B984D003E1AC1 /* ResultsTableViewController.swift */; };
@@ -38,13 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2CA27D9C273E613400B4D495 /* Embed Frameworks */ = {
+		2CF9C17A306BEC200048EE81 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2CA27D9B273E613400B4D495 /* ClientSecurityKit.xcframework in Embed Frameworks */,
+				2CF9C179306BEC200048EE81 /* ClientSecurityKit.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,7 +52,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C1758DE2F85549A00AFD0F1 /* ClientSecurityKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ClientSecurityKit.xcframework; path = "../../Downloads/ClientSecurityKit.xcframework-ii-DID-5860-repo-indicator-ios (6)/ClientSecurityKit.xcframework"; sourceTree = "<group>"; };
+		2C1758E22F85555200AFD0F1 /* ClientSecurityKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ClientSecurityKit.xcframework; path = "../../Downloads/ClientSecurityKit.xcframework-ii-DID-5860-repo-indicator-ios (7)/ClientSecurityKit.xcframework"; sourceTree = "<group>"; };
+		2C4BFC142F55ECC1000BC834 /* ClientSecurityKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ClientSecurityKit.xcframework; path = "../../Downloads/RiskSDKSPM-2c98e73060eceee9c25bd7d9513f168b374ba10a/XCFrameworks/ClientSecurityKit.xcframework"; sourceTree = "<group>"; };
+		2C4BFC182F5AE0D1000BC834 /* ClientSecurityKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ClientSecurityKit.xcframework; path = "../../Downloads/ClientSecurityKit.xcframework-ii-DID-5860-repo-indicator-ios (3)/ClientSecurityKit.xcframework"; sourceTree = "<group>"; };
+		2C4BFC1C2F5F3C6C000BC834 /* ClientSecurityKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ClientSecurityKit.xcframework; path = "../../Downloads/ClientSecurityKit.xcframework-ii-DID-5860-repo-indicator-ios (4)/ClientSecurityKit.xcframework"; sourceTree = "<group>"; };
+		2C4BFC202F5F3EF9000BC834 /* ClientSecurityKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ClientSecurityKit.xcframework; path = "../../Downloads/ClientSecurityKit.xcframework-ii-DID-5860-repo-indicator-ios (5)/ClientSecurityKit.xcframework"; sourceTree = "<group>"; };
+		2C9F76332F4EEE9600D614C0 /* ClientSecurityKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ClientSecurityKit.xcframework; path = "../../Downloads/ClientSecurityKit.xcframework-1.8.0 (1)/ClientSecurityKit.xcframework"; sourceTree = "<group>"; };
 		2CA27D99273E613400B4D495 /* ClientSecurityKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ClientSecurityKit.xcframework; path = "../../../../Users/asifmayilli/Downloads/ClientSecurityKit.xcframework-1.7.0/ClientSecurityKit.xcframework"; sourceTree = "<group>"; };
+		2CB53CAA2F55EB59001676F7 /* ClientSecurityKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ClientSecurityKit.xcframework; path = "../../Downloads/RiskSDKSPM-e2bc7764efb8fd37c322e587dd315d8d3df8fde0/XCFrameworks/ClientSecurityKit.xcframework"; sourceTree = "<group>"; };
+		2CB53CAE2F55EBD0001676F7 /* ClientSecurityKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ClientSecurityKit.xcframework; path = "../../Downloads/RiskSDKSPM-7ff83a158599f4784669b9d5a30fcc1a9b0ee34c/XCFrameworks/ClientSecurityKit.xcframework"; sourceTree = "<group>"; };
+		2CE4F1CB2F4EEEEA00CBAC19 /* ClientSecurityKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ClientSecurityKit.xcframework; path = "../../Downloads/ClientSecurityKit.xcframework-1.7.2 (1)/ClientSecurityKit.xcframework"; sourceTree = "<group>"; };
+		2CE4F1CF2F4EEF9300CBAC19 /* ClientSecurityKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ClientSecurityKit.xcframework; path = "../../Downloads/RiskSDKSPM-main/XCFrameworks/ClientSecurityKit.xcframework"; sourceTree = "<group>"; };
+		2CF9C167306BEBFF0048EE81 /* ClientSecurityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ClientSecurityKit.framework; sourceTree = "<group>"; };
+		2CF9C169306BEBFF0048EE81 /* ClientSecurityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ClientSecurityKit.framework; sourceTree = "<group>"; };
+		2CF9C16B306BEBFF0048EE81 /* ClientSecurityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ClientSecurityKit.framework; sourceTree = "<group>"; };
+		2CF9C16D306BEBFF0048EE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CF9C16F306BEC050048EE81 /* ClientSecurityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ClientSecurityKit.framework; sourceTree = "<group>"; };
+		2CF9C171306BEC050048EE81 /* ClientSecurityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ClientSecurityKit.framework; sourceTree = "<group>"; };
+		2CF9C173306BEC050048EE81 /* ClientSecurityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ClientSecurityKit.framework; sourceTree = "<group>"; };
+		2CF9C175306BEC050048EE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CF9C177306BEC200048EE81 /* ClientSecurityKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ClientSecurityKit.xcframework; sourceTree = "<group>"; };
+		2CFE02EB2F4EEAEF00D81456 /* ClientSecurityKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ClientSecurityKit.xcframework; path = "../../Downloads/ClientSecurityKit.xcframework-grafana/ClientSecurityKit.xcframework"; sourceTree = "<group>"; };
 		49374F93224B76D5003E1AC1 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		49374F9C224B9442003E1AC1 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		49374F9E224B984D003E1AC1 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
@@ -75,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CA27D9A273E613400B4D495 /* ClientSecurityKit.xcframework in Frameworks */,
+				2CF9C178306BEC200048EE81 /* ClientSecurityKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +117,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CF9C168306BEBFF0048EE81 /* ios-arm64 */ = {
+			isa = PBXGroup;
+			children = (
+				2CF9C167306BEBFF0048EE81 /* ClientSecurityKit.framework */,
+			);
+			path = "ios-arm64";
+			sourceTree = "<group>";
+		};
+		2CF9C16A306BEBFF0048EE81 /* ios-arm64_x86_64-maccatalyst */ = {
+			isa = PBXGroup;
+			children = (
+				2CF9C169306BEBFF0048EE81 /* ClientSecurityKit.framework */,
+			);
+			path = "ios-arm64_x86_64-maccatalyst";
+			sourceTree = "<group>";
+		};
+		2CF9C16C306BEBFF0048EE81 /* ios-arm64_x86_64-simulator */ = {
+			isa = PBXGroup;
+			children = (
+				2CF9C16B306BEBFF0048EE81 /* ClientSecurityKit.framework */,
+			);
+			path = "ios-arm64_x86_64-simulator";
+			sourceTree = "<group>";
+		};
+		2CF9C16E306BEBFF0048EE81 /* ClientSecurityKit.xcframework (1) */ = {
+			isa = PBXGroup;
+			children = (
+				2CF9C168306BEBFF0048EE81 /* ios-arm64 */,
+				2CF9C16A306BEBFF0048EE81 /* ios-arm64_x86_64-maccatalyst */,
+				2CF9C16C306BEBFF0048EE81 /* ios-arm64_x86_64-simulator */,
+				2CF9C16D306BEBFF0048EE81 /* Info.plist */,
+			);
+			name = "ClientSecurityKit.xcframework (1)";
+			path = "../../Downloads/ClientSecurityKit.xcframework (1)";
+			sourceTree = "<group>";
+		};
+		2CF9C170306BEC050048EE81 /* ios-arm64 */ = {
+			isa = PBXGroup;
+			children = (
+				2CF9C16F306BEC050048EE81 /* ClientSecurityKit.framework */,
+			);
+			path = "ios-arm64";
+			sourceTree = "<group>";
+		};
+		2CF9C172306BEC050048EE81 /* ios-arm64_x86_64-maccatalyst */ = {
+			isa = PBXGroup;
+			children = (
+				2CF9C171306BEC050048EE81 /* ClientSecurityKit.framework */,
+			);
+			path = "ios-arm64_x86_64-maccatalyst";
+			sourceTree = "<group>";
+		};
+		2CF9C174306BEC050048EE81 /* ios-arm64_x86_64-simulator */ = {
+			isa = PBXGroup;
+			children = (
+				2CF9C173306BEC050048EE81 /* ClientSecurityKit.framework */,
+			);
+			path = "ios-arm64_x86_64-simulator";
+			sourceTree = "<group>";
+		};
+		2CF9C176306BEC050048EE81 /* ClientSecurityKit.xcframework (1) */ = {
+			isa = PBXGroup;
+			children = (
+				2CF9C170306BEC050048EE81 /* ios-arm64 */,
+				2CF9C172306BEC050048EE81 /* ios-arm64_x86_64-maccatalyst */,
+				2CF9C174306BEC050048EE81 /* ios-arm64_x86_64-simulator */,
+				2CF9C175306BEC050048EE81 /* Info.plist */,
+			);
+			name = "ClientSecurityKit.xcframework (1)";
+			path = "../../Downloads/ClientSecurityKit.xcframework (1)";
+			sourceTree = "<group>";
+		};
 		497281E0224B6D8F0043CDFF = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +246,21 @@
 		A18F6B24247EB13A007FB9D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2CF9C177306BEC200048EE81 /* ClientSecurityKit.xcframework */,
+				2CF9C16E306BEBFF0048EE81 /* ClientSecurityKit.xcframework (1) */,
+				2CF9C176306BEC050048EE81 /* ClientSecurityKit.xcframework (1) */,
+				2C1758E22F85555200AFD0F1 /* ClientSecurityKit.xcframework */,
+				2C1758DE2F85549A00AFD0F1 /* ClientSecurityKit.xcframework */,
+				2C4BFC202F5F3EF9000BC834 /* ClientSecurityKit.xcframework */,
+				2C4BFC1C2F5F3C6C000BC834 /* ClientSecurityKit.xcframework */,
+				2C4BFC182F5AE0D1000BC834 /* ClientSecurityKit.xcframework */,
+				2C4BFC142F55ECC1000BC834 /* ClientSecurityKit.xcframework */,
+				2CB53CAE2F55EBD0001676F7 /* ClientSecurityKit.xcframework */,
+				2CB53CAA2F55EB59001676F7 /* ClientSecurityKit.xcframework */,
+				2CE4F1CF2F4EEF9300CBAC19 /* ClientSecurityKit.xcframework */,
+				2CE4F1CB2F4EEEEA00CBAC19 /* ClientSecurityKit.xcframework */,
+				2C9F76332F4EEE9600D614C0 /* ClientSecurityKit.xcframework */,
+				2CFE02EB2F4EEAEF00D81456 /* ClientSecurityKit.xcframework */,
 				2CA27D99273E613400B4D495 /* ClientSecurityKit.xcframework */,
 			);
 			name = Frameworks;
@@ -168,7 +276,7 @@
 				497281E5224B6D8F0043CDFF /* Sources */,
 				497281E6224B6D8F0043CDFF /* Frameworks */,
 				497281E7224B6D8F0043CDFF /* Resources */,
-				2CA27D9C273E613400B4D495 /* Embed Frameworks */,
+				2CF9C17A306BEC200048EE81 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -471,7 +579,6 @@
 		49728212224B6D8F0043CDFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YZ7V9GNQ9A;
@@ -491,7 +598,6 @@
 		49728213224B6D8F0043CDFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YZ7V9GNQ9A;

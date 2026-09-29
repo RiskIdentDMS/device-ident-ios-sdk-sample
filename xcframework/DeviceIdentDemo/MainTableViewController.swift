@@ -29,17 +29,19 @@ class MainTableViewController: UITableViewController {
         if let resultPage = storyboard?.instantiateViewController(withIdentifier: "ResultsTableViewController") as? ResultsTableViewController{
             resultPage.token = token
             navigationController?.pushViewController(resultPage, animated: true)
-            let  clientSecurity = ClientSecurityModule(snippetId: snippetId)
+            let  clientSecurity = ClientSecurityModule(snippetId: snippetId, domain:"di.p0f.deviceident-test.riskident.pks.risk-ident.com")
                     
-            clientSecurity.sendData(token: token,location: location, customArgs: [ "cId" : "A" , "amount" : "1000" ])
-                {error,token,success in
-                        print("=================RESULT==================")
-                        print(error)
-                        print(token)
-                        print(success)
-                        
-                    }
-            
+            clientSecurity.execute(token: token, location: location, customArgs: [ "cId" : "A" , "amount" : "1000" ]) { result in
+                DispatchQueue.main.async {
+                    print("=================RESULT==================")
+                    print(result.outcome)
+                    print(result.token)
+                    print(result.errorType)
+                    print(result.message ?? "Default fallback")
+                    print("mobileDataSent \(result.mobileDataSent)")
+                    print("clientDataSent \(result.clientDataSent)")
+                }
+            }
         }
         
 
